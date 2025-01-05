@@ -1,0 +1,130 @@
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(209, 186, 248);
+  padding: 0;
+}
+
+/* Header */
+
+#header-nav {
+  background-color: purple;
+  border-radius: 0;
+  border: 0px;
+  min-height: 120px;
+}
+
+.navbar-brand {
+  padding: 20px;
+  
+}
+
+.navbar-brand h1 {                         /* Restaurant name */
+  color: white;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* Navbar Styles */
+
+#nav-list {
+	background-color: pink;   /* dropdown menu color */
+	margin: 0 -15px;
+}
+
+#nav-list a {
+  color: purple;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid lightgrey;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+ {
+  border: 2px solid white;
+}
+.navbar-header button.navbar-toggle {    /* Hamburger menu */
+  clear: both;
+  margin-top: -10px;
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+
+.container-fluid {
+ padding-right: 0px;
+ margin: 0
+}
+.container-fluid h2 {
+	color: purple;
+	font-weight: bold;
+	font-size: 2em;
+}
+div p {
+  background-color: #a98fa6;
+  height: 1000px;
+  padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	padding-top: 80px;
+	margin-right: 20px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+h3 {                            /* Chicken Beef Sushi */
+	position: absolute;
+    top: 30px;
+    width: 100%;
+    color: black;
+	font-weight: bold;
+}
+section a {                    
+	color: rgb(214, 214, 214);
+}
+section a:hover, section a:visited, section a:link, section a:active {
+	text-decoration: none;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  .navbar-collapse.collapse {
+    height: auto;
+    padding-bottom: 70px;
+  }
+  .nav#header-nav.navbar.navbar-default {
+    height: 60px;
+  
+  }
+} 
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
+}
